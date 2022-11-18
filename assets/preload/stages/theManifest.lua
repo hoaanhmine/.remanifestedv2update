@@ -7,8 +7,8 @@ function onCreate()
     addAnimationByPrefix('shift', 'bop', 'bg_manifest', 24, false);
 	objectPlayAnimation('shift', 'idle');
     makeAnimatedLuaSprite('floor', 'floorManifest', -1053.1, -464.7);
-    addAnimationByIndices('floor', 'idle', 'floorManifest', '5', 24);
-    addAnimationByPrefix('floor', 'bop', 'floorManifest', 24, false);
+    addAnimationByIndices('floor', 'idle', 'floorManifest0', '5', 24);
+    addAnimationByPrefix('floor', 'bop', 'floorManifest0', 24, false);
 	objectPlayAnimation('floor', 'idle');
     addLuaSprite('shift', false);
     addLuaSprite('floor', false);
